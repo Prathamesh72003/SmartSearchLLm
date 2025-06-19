@@ -95,7 +95,7 @@ def _validate_query_structure(query_dict):
         if key not in valid_fields:
             raise ValueError(f"Invalid field detected: {key}. Valid fields are: {', '.join(valid_fields)}")
 
-prompt=["ill write this later"]
+prompt=["ill write this la"]
 
 st.set_page_config(page_title="Candidate Query Engine")
 st.header("AI-Powered Candidate Search")
